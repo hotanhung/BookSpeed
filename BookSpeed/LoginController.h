@@ -1,5 +1,5 @@
 //
-//  LoginControllerViewController.h
+//  LoginController.h
 //  BookSpeed
 //
 //  Created by user on 5/19/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginControllerViewController : UIViewController
+@interface LoginController : UIViewController
 
 @end
