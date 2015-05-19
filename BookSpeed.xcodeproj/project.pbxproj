@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0451558A1B0AC7FA00975A4E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 045155891B0AC7FA00975A4E /* User.m */; };
+		0451558D1B0AC88500975A4E /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 0451558C1B0AC88500975A4E /* Book.m */; };
+		045155901B0AC8B900975A4E /* ContainBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0451558F1B0AC8B900975A4E /* ContainBook.m */; };
+		045155961B0ACAC800975A4E /* CategoryBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 045155951B0ACAC800975A4E /* CategoryBook.m */; };
 		CE5E9DB31B09E1620068B00C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E9DB21B09E1620068B00C /* main.m */; };
 		CE5E9DB61B09E1620068B00C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E9DB51B09E1620068B00C /* AppDelegate.m */; };
 		CE5E9DB91B09E1620068B00C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E9DB81B09E1620068B00C /* ViewController.m */; };
@@ -27,6 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045155881B0AC7FA00975A4E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		045155891B0AC7FA00975A4E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		0451558B1B0AC88500975A4E /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		0451558C1B0AC88500975A4E /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		0451558E1B0AC8B900975A4E /* ContainBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainBook.h; sourceTree = "<group>"; };
+		0451558F1B0AC8B900975A4E /* ContainBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainBook.m; sourceTree = "<group>"; };
+		045155941B0ACAC800975A4E /* CategoryBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryBook.h; sourceTree = "<group>"; };
+		045155951B0ACAC800975A4E /* CategoryBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryBook.m; sourceTree = "<group>"; };
 		CE5E9DAD1B09E1620068B00C /* BookSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5E9DB11B09E1620068B00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5E9DB21B09E1620068B00C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +72,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045155841B0AC78300975A4E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				045155871B0AC7AB00975A4E /* Image */,
+				045155851B0AC79D00975A4E /* Object */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		045155851B0AC79D00975A4E /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				045155881B0AC7FA00975A4E /* User.h */,
+				045155891B0AC7FA00975A4E /* User.m */,
+				0451558B1B0AC88500975A4E /* Book.h */,
+				0451558C1B0AC88500975A4E /* Book.m */,
+				0451558E1B0AC8B900975A4E /* ContainBook.h */,
+				0451558F1B0AC8B900975A4E /* ContainBook.m */,
+				045155941B0ACAC800975A4E /* CategoryBook.h */,
+				045155951B0ACAC800975A4E /* CategoryBook.m */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		045155871B0AC7AB00975A4E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		CE5E9DA41B09E1620068B00C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +124,7 @@
 		CE5E9DAF1B09E1620068B00C /* BookSpeed */ = {
 			isa = PBXGroup;
 			children = (
+				045155841B0AC78300975A4E /* Resource */,
 				CE5E9DB41B09E1620068B00C /* AppDelegate.h */,
 				CE5E9DB51B09E1620068B00C /* AppDelegate.m */,
 				CE5E9DB71B09E1620068B00C /* ViewController.h */,
@@ -219,7 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0451558D1B0AC88500975A4E /* Book.m in Sources */,
+				0451558A1B0AC7FA00975A4E /* User.m in Sources */,
 				CE5E9DB91B09E1620068B00C /* ViewController.m in Sources */,
+				045155961B0ACAC800975A4E /* CategoryBook.m in Sources */,
+				045155901B0AC8B900975A4E /* ContainBook.m in Sources */,
 				CE5E9DB61B09E1620068B00C /* AppDelegate.m in Sources */,
 				CE5E9DB31B09E1620068B00C /* main.m in Sources */,
 			);
@@ -412,6 +460,7 @@
 				CE5E9DD21B09E1620068B00C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE5E9DD31B09E1620068B00C /* Build configuration list for PBXNativeTarget "BookSpeedTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +469,7 @@
 				CE5E9DD51B09E1620068B00C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
