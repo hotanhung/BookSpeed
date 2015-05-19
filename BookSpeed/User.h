@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface User : NSObject
+@property(nonatomic,assign) int userID;
+@property(nonatomic,strong) NSString *userName;
+@property(nonatomic,strong) NSString *userPassword;
+@property(nonatomic,strong) NSMutableArray *userBookFavorite;
 
 @end

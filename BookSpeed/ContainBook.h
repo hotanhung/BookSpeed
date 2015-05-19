@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface ContainBook : NSObject
-
+@property(nonatomic,assign) int bookID;
+@property(nonatomic,assign) int numPage;
+@property(nonatomic,strong) NSMutableArray *containOfPage;
 @end

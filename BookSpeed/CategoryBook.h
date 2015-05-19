@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface CategoryBook : NSObject
-
+@property (nonatomic,assign) int categoryID;
+@property (nonatomic,strong) NSString *categoryName;
+@property (nonatomic,strong) NSString *categoryDetail;
 @end
