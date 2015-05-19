@@ -20,6 +20,14 @@
 		CE5E9DCD1B09E1620068B00C /* BookSpeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E9DCC1B09E1620068B00C /* BookSpeedTests.m */; };
 		CE6BF91F1B0ACB9C006F2843 /* LoginControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6BF91D1B0ACB9C006F2843 /* LoginControllerViewController.m */; };
 		CE6BF9201B0ACB9C006F2843 /* LoginControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6BF91E1B0ACB9C006F2843 /* LoginControllerViewController.xib */; };
+		CE6BF9291B0ADD8E006F2843 /* FavoriteBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6BF9271B0ADD8E006F2843 /* FavoriteBookController.m */; };
+		CE6BF92A1B0ADD8E006F2843 /* FavoriteBookController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6BF9281B0ADD8E006F2843 /* FavoriteBookController.xib */; };
+		CE6BF92E1B0AE081006F2843 /* BuyBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6BF92C1B0AE081006F2843 /* BuyBookController.m */; };
+		CE6BF92F1B0AE081006F2843 /* BuyBookController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6BF92D1B0AE081006F2843 /* BuyBookController.xib */; };
+		CE6BF9331B0AE52F006F2843 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6BF9311B0AE52F006F2843 /* RegisterController.m */; };
+		CE6BF9341B0AE52F006F2843 /* RegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6BF9321B0AE52F006F2843 /* RegisterController.xib */; };
+		CE6BF9381B0AE877006F2843 /* CustomFavoriteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6BF9361B0AE877006F2843 /* CustomFavoriteCell.m */; };
+		CE6BF9391B0AE877006F2843 /* CustomFavoriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6BF9371B0AE877006F2843 /* CustomFavoriteCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +65,18 @@
 		CE6BF91C1B0ACB9C006F2843 /* LoginControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginControllerViewController.h; sourceTree = "<group>"; };
 		CE6BF91D1B0ACB9C006F2843 /* LoginControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginControllerViewController.m; sourceTree = "<group>"; };
 		CE6BF91E1B0ACB9C006F2843 /* LoginControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginControllerViewController.xib; sourceTree = "<group>"; };
+		CE6BF9261B0ADD8E006F2843 /* FavoriteBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteBookController.h; sourceTree = "<group>"; };
+		CE6BF9271B0ADD8E006F2843 /* FavoriteBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteBookController.m; sourceTree = "<group>"; };
+		CE6BF9281B0ADD8E006F2843 /* FavoriteBookController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoriteBookController.xib; sourceTree = "<group>"; };
+		CE6BF92B1B0AE081006F2843 /* BuyBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyBookController.h; sourceTree = "<group>"; };
+		CE6BF92C1B0AE081006F2843 /* BuyBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyBookController.m; sourceTree = "<group>"; };
+		CE6BF92D1B0AE081006F2843 /* BuyBookController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyBookController.xib; sourceTree = "<group>"; };
+		CE6BF9301B0AE52F006F2843 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		CE6BF9311B0AE52F006F2843 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		CE6BF9321B0AE52F006F2843 /* RegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterController.xib; sourceTree = "<group>"; };
+		CE6BF9351B0AE877006F2843 /* CustomFavoriteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFavoriteCell.h; sourceTree = "<group>"; };
+		CE6BF9361B0AE877006F2843 /* CustomFavoriteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFavoriteCell.m; sourceTree = "<group>"; };
+		CE6BF9371B0AE877006F2843 /* CustomFavoriteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomFavoriteCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +161,18 @@
 				CE6BF91C1B0ACB9C006F2843 /* LoginControllerViewController.h */,
 				CE6BF91D1B0ACB9C006F2843 /* LoginControllerViewController.m */,
 				CE6BF91E1B0ACB9C006F2843 /* LoginControllerViewController.xib */,
+				CE6BF9261B0ADD8E006F2843 /* FavoriteBookController.h */,
+				CE6BF9271B0ADD8E006F2843 /* FavoriteBookController.m */,
+				CE6BF9281B0ADD8E006F2843 /* FavoriteBookController.xib */,
+				CE6BF92B1B0AE081006F2843 /* BuyBookController.h */,
+				CE6BF92C1B0AE081006F2843 /* BuyBookController.m */,
+				CE6BF92D1B0AE081006F2843 /* BuyBookController.xib */,
+				CE6BF9301B0AE52F006F2843 /* RegisterController.h */,
+				CE6BF9311B0AE52F006F2843 /* RegisterController.m */,
+				CE6BF9321B0AE52F006F2843 /* RegisterController.xib */,
+				CE6BF9351B0AE877006F2843 /* CustomFavoriteCell.h */,
+				CE6BF9361B0AE877006F2843 /* CustomFavoriteCell.m */,
+				CE6BF9371B0AE877006F2843 /* CustomFavoriteCell.xib */,
 			);
 			path = BookSpeed;
 			sourceTree = "<group>";
@@ -252,7 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5E9DBC1B09E1620068B00C /* Main.storyboard in Resources */,
+				CE6BF9341B0AE52F006F2843 /* RegisterController.xib in Resources */,
+				CE6BF9391B0AE877006F2843 /* CustomFavoriteCell.xib in Resources */,
+				CE6BF92F1B0AE081006F2843 /* BuyBookController.xib in Resources */,
 				CE5E9DC11B09E1620068B00C /* LaunchScreen.xib in Resources */,
+				CE6BF92A1B0ADD8E006F2843 /* FavoriteBookController.xib in Resources */,
 				CE6BF9201B0ACB9C006F2843 /* LoginControllerViewController.xib in Resources */,
 				CE5E9DBE1B09E1620068B00C /* Images.xcassets in Resources */,
 			);
@@ -272,6 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6BF9291B0ADD8E006F2843 /* FavoriteBookController.m in Sources */,
+				CE6BF92E1B0AE081006F2843 /* BuyBookController.m in Sources */,
+				CE6BF9381B0AE877006F2843 /* CustomFavoriteCell.m in Sources */,
 				0451558D1B0AC88500975A4E /* Book.m in Sources */,
 				0451558A1B0AC7FA00975A4E /* User.m in Sources */,
 				CE5E9DB91B09E1620068B00C /* ViewController.m in Sources */,
@@ -280,6 +319,7 @@
 				CE5E9DB61B09E1620068B00C /* AppDelegate.m in Sources */,
 				CE6BF91F1B0ACB9C006F2843 /* LoginControllerViewController.m in Sources */,
 				CE5E9DB31B09E1620068B00C /* main.m in Sources */,
+				CE6BF9331B0AE52F006F2843 /* RegisterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
