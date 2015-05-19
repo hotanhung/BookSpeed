@@ -20,8 +20,6 @@
 		CE5E9DCD1B09E1620068B00C /* BookSpeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E9DCC1B09E1620068B00C /* BookSpeedTests.m */; };
 		CE6BF91F1B0ACB9C006F2843 /* LoginControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6BF91D1B0ACB9C006F2843 /* LoginControllerViewController.m */; };
 		CE6BF9201B0ACB9C006F2843 /* LoginControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6BF91E1B0ACB9C006F2843 /* LoginControllerViewController.xib */; };
-		CE6BF9241B0ACDEC006F2843 /* FavoriteBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6BF9221B0ACDEC006F2843 /* FavoriteBookController.m */; };
-		CE6BF9251B0ACDEC006F2843 /* FavoriteBookController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6BF9231B0ACDEC006F2843 /* FavoriteBookController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +57,6 @@
 		CE6BF91C1B0ACB9C006F2843 /* LoginControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginControllerViewController.h; sourceTree = "<group>"; };
 		CE6BF91D1B0ACB9C006F2843 /* LoginControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginControllerViewController.m; sourceTree = "<group>"; };
 		CE6BF91E1B0ACB9C006F2843 /* LoginControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginControllerViewController.xib; sourceTree = "<group>"; };
-		CE6BF9211B0ACDEC006F2843 /* FavoriteBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteBookController.h; sourceTree = "<group>"; };
-		CE6BF9221B0ACDEC006F2843 /* FavoriteBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteBookController.m; sourceTree = "<group>"; };
-		CE6BF9231B0ACDEC006F2843 /* FavoriteBookController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoriteBookController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,9 +141,6 @@
 				CE6BF91C1B0ACB9C006F2843 /* LoginControllerViewController.h */,
 				CE6BF91D1B0ACB9C006F2843 /* LoginControllerViewController.m */,
 				CE6BF91E1B0ACB9C006F2843 /* LoginControllerViewController.xib */,
-				CE6BF9211B0ACDEC006F2843 /* FavoriteBookController.h */,
-				CE6BF9221B0ACDEC006F2843 /* FavoriteBookController.m */,
-				CE6BF9231B0ACDEC006F2843 /* FavoriteBookController.xib */,
 			);
 			path = BookSpeed;
 			sourceTree = "<group>";
@@ -261,7 +253,6 @@
 			files = (
 				CE5E9DBC1B09E1620068B00C /* Main.storyboard in Resources */,
 				CE5E9DC11B09E1620068B00C /* LaunchScreen.xib in Resources */,
-				CE6BF9251B0ACDEC006F2843 /* FavoriteBookController.xib in Resources */,
 				CE6BF9201B0ACB9C006F2843 /* LoginControllerViewController.xib in Resources */,
 				CE5E9DBE1B09E1620068B00C /* Images.xcassets in Resources */,
 			);
@@ -289,7 +280,6 @@
 				CE5E9DB61B09E1620068B00C /* AppDelegate.m in Sources */,
 				CE6BF91F1B0ACB9C006F2843 /* LoginControllerViewController.m in Sources */,
 				CE5E9DB31B09E1620068B00C /* main.m in Sources */,
-				CE6BF9241B0ACDEC006F2843 /* FavoriteBookController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
